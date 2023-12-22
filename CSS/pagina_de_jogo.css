@@ -1,0 +1,745 @@
+/*importando a fonte*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+/*importando a fonte*/
+
+/*822,560, 440, 330 */
+
+/*Definindo propriedades para todo o site*/
+
+#ocultar{
+    color: #fff;
+}
+
+*{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    scroll-padding-top: 2rem;
+
+}
+
+:root {
+    --main-color: #fa5353;
+    --dark-color: #1b182b;
+    --light-color: #322f40;
+    --text-color: hsl(0,0%,91%);
+}
+
+/*img{
+    width: 100%;
+}*/
+
+body {
+    color: var(--text-color);
+    background-color: #1b182b;
+    overflow-x: hidden;
+}
+
+/*Definindo propriedades para todo o site*/
+
+/*Estilizando a barra de navegação*/
+.header{
+    position: fixed;
+    display: flex;
+    height: 65px;
+    width: 100%;
+    background-color: #1b182b;
+    padding: 1.5% 8.5%;
+    justify-content: space-between;
+    border-bottom: 2px soolid #2e2c38;
+    z-index: 999;
+}
+
+.header_left{
+    display: flex;
+    align-items: center;
+}
+
+.header_right{
+    display: flex;
+    align-items: center;
+}
+
+.header_right a{
+    margin-left: 20px;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+}
+
+.logo{
+    color: #fff;
+}
+
+span{
+    color: #fa5353;
+}
+
+
+.plataformas a{
+    position: relative;
+    top: 0;
+}
+
+.plataformas svg{
+    position: relative;
+    top: 2%;
+}
+
+.header_right a:hover{
+    color: #fa5353;
+}
+
+.header_right a:active{
+  transition: animacao_do_active 2s forwads;
+  color: #fa5353;
+  fill: #fa5353;
+}
+
+.header_right svg:hover{
+    fill: #fa5353;
+}
+.header_right svg:active{
+  transition: animacao_do_active 2s forwads;
+  color: #fa5353;
+  fill: #fa5353  
+}
+
+
+.header_right_mobile{
+  display: none;
+  align-items: center;
+  fill: #fff;
+}
+
+
+.header_right_mobile svg:hover{
+  fill: #fa5353;
+  text-decoration: none;
+}
+
+.header_right_mobile svg:active{
+  transition: animacao_do_active 2s forwads;
+  color: #fa5353;
+  fill: #fa5353;
+}
+
+/*Estilizando o menu oculto*/
+.plataformas{
+    height: 200px;
+    position: relative;
+    top: -2%;
+}
+
+.menu_oculto {
+    display: none;
+    position: absolute;
+    width: 170px;
+    height: 200px;
+    background-color: #322f40;
+    /*display: inline-block;*/
+    border-radius: 10px;
+    left: -4%;
+    top: 60%;
+}
+
+.menu_oculto a{
+    width: 100%;
+    height: 100%;
+}
+
+.menu_oculto.active{
+    display: inline-block;
+}
+
+.header_right img{
+    width: 20px;
+    height: 20px;
+    position: relative;
+    right: 20px;
+}
+/* Estilizando a navbar na parte direita com os seus icones*/
+.plataformas, .carrinho,.entrar, .suporte{
+    fill: #fff;
+}
+
+.plataformas:hover, .carrinho:hover, .entrar:hover, .suporte:hover{
+    fill: #fa5353;
+}
+
+.plataformas:active, .carrinho:active, .entrar:active, .suporte:active{
+  transition: animacao_do_active 2s forwads;
+  color: #fa5353;
+  fill: #fa5353;
+}
+
+/* Estilizando a navbar na parte direita com os seus icones*/
+
+li{
+    display: flex;
+    align-items: center;
+    width: 170px;
+    height: 50px;
+    cursor: pointer;
+}
+
+li a{
+    text-decoration: none;
+    display: flex;
+    fl
+}
+
+/*li:hover{
+    background-color: grey;
+}*/
+
+#pc{
+    color: #fff;
+}
+
+#pc:hover{
+    background-color: gray;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+#pc:active{
+  transition: animacao_do_active 2s forwads;
+  color: #fa5353;
+  fill: #fa5353;
+}
+
+#playstation{
+    color: #0070D1;
+}
+
+#playsation:hover{
+    background-color: grey;
+}
+
+#playstation:active{
+  transition: animacao_do_active 2s forwads;
+  color: #fa5353;
+  fill: #fa5353;
+}
+
+#xbox{
+    color: #14B821;
+}
+
+#xbox:hover{
+    background-color: grey;
+}
+
+#xbox:active{
+  transition: animacao_do_active 2s forwads;
+  color: #fa5353;
+  fill: #fa5353;
+}
+
+#nintendo{
+    color: red;
+}
+
+#nintendo:hover{
+    background-color: grey;
+    border-end-end-radius: 10px;
+    border-end-start-radius: 10px;
+}
+
+#nintendo:active{
+  transition: animacao_do_active 2s forwads;
+  color: #fa5353;
+  fill: #fa5353;
+}
+
+.header_right li a{
+    padding: 0px 10px 0px 20px;
+}
+/*Estilizando o menu oculto*/
+
+/*Estilizando a barra de navegação*/
+
+
+/*Estilizando o fundo do site*/
+
+    .fundo{
+        width: 100%;
+    }
+
+    .fundo img{
+        width: 100%;
+    }
+
+    .fundo a{
+        position: absolute;
+        top: 500px;
+    }
+
+    .block-jogo{
+        background-image: url(https://cdn.cloudflare.steamstatic.com/steam/apps/1593500/library_hero.jpg?t=1639001778);
+        background-repeat: no-repeat;
+        background-size: initial;
+        background-position-x: center;
+        position: relative;
+        top: 65px;
+        height: 710px;
+
+    }
+    
+    .fixar_o_titulo_do_jogo{
+        width: 957px;
+        margin: 0 auto;
+        position: relative;
+        top: 15px;
+        display: flex;
+    }
+
+    .titulo_do_jogo{
+        display: flex;
+    }
+
+    .icone_do_jogo{
+        width: 275px;
+        height: 128px;
+    }
+
+    .icone_do_jogo img{
+        width: 100%;
+        height: 100%;
+    }
+
+    .informacoes_plataformas{
+        display: flex;
+        position: relative;
+        top: 7px;
+    }
+
+    .plataformas2{
+        height: 45px;
+        margin-left: 8px;
+        background-color: #2e2c38;
+        border-radius: 5%;
+        display: flex;
+        justify-content: center;
+        position: relative;
+        color: #fff;
+    }
+
+    .plataformas2 img{
+        position: relative;
+        top: 25%;
+    }
+
+    .plataformas2 p{
+        position: relative;
+        top: 20%;
+    }
+
+    .nome_do_jogos{
+        font-size: 1.8rem;
+        margin-left: 10px;
+        margin-bottom: 10px;
+        color: #fff;
+    }
+
+    .plataformas2 img{
+        width: 20px;
+        height: 20px;
+        margin-right: 10px;
+    }
+
+    #plataformas-pc{
+        width: 60px;
+    }
+
+    #plataformas-playstation{
+        width: 130px;
+    }
+
+    #plataformas-xbox{
+        width: 78px;
+    }
+
+    #plataformas-nintendo{
+        width: 115px;
+    }
+
+    .block-jogo2{
+        display: flex;
+        justify-content: center;
+        margin-top: 2rem;
+        margin-right: 148px;
+    }
+
+/*Estilizando o fundo do site*/
+
+/*Estilizando o carousel do jogo com as fotos*/
+
+  *{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+   }
+
+   .carousel-do-jogo{
+    margin-left: 148px;
+    position: relative;
+    bottom: 54px;
+   }
+
+  .carousel-big{
+    height: 100%;
+    max-width: 600px;
+  }
+
+  .carousel-big img{
+    width: 100%;
+    height: 337px;
+  }
+
+
+  .slick-prev, .slick-next{
+    cursor: pointer;
+    z-index: 998;
+    border: none;
+    background-color: #1b182b;
+    fill: #fff;
+    width: 48px;
+    height: 53px;
+    position: relative;
+    top: 200px;
+    opacity: 0%;
+  }
+
+  .slick-next{
+    position: relative;
+    left: 499.5px;
+    border-top-left-radius: 10%;
+    border-bottom-left-radius: 10%;
+  }
+
+  .slick-prev{
+    border-top-right-radius: 10%;
+    border-bottom-right-radius: 10%;
+  }
+
+  .carousel:hover .slick-next{
+    opacity: 100%;
+  }
+
+  .carousel:hover .slick-prev{
+    opacity: 100%;
+  }
+
+  .slick-prev:hover, .slick-next:hover{
+    fill: #fa5353;
+  }
+
+  .carousel-thumbnails{
+    width: 600px;
+    max-height: 300px;
+    cursor: pointer;
+  }
+
+  .carousel-thumbnails img{
+    width: 100%;
+    height: 112px;
+  }
+
+  iframe {
+    width: 600px;
+    height: 337px;
+  }
+
+/*Estilizando o carousel do jogo com as fotos*/
+
+
+/*Estilizando as informações ao lado do carousel*/
+
+/*Estilizando as informações ao lado do carousel relacionado ao preço*/
+
+    .informacoes-do-jogo{
+        background-color: #322f40;
+        min-width: 350px;
+        height: 457px;
+        margin-left: 5px;
+    }
+
+    .desconto{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 1.2rem;
+        background-color: #fa5353;
+        width: 50px;
+        height: 50px;
+        border-radius: 10%;
+    }
+
+    .valor{
+        display: flex;
+        margin-top: 20px;
+        margin-left: 45px;
+        margin-bottom: 20px;
+    }
+    
+    .preco{
+        width: 200px;
+        line-break: -10px;
+        height: 51px;
+        display: grid;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        right: 15px;
+    }
+
+    .preco_original{
+        font-size: 0.8rem;
+        text-decoration: line-through;
+    }
+
+    .preco_desconto{
+        font-size: 1.2rem;
+    }
+
+/*Estilizando as informações ao lado do carousel relacionado ao preço*/
+
+/*Estilizando as informações ao lado do carousel relacionado ao botão de compra*/
+
+    .info-jogo-comprar{
+        display: flex;
+        justify-content: center;
+    }
+
+    .info-jogo-comprar button{
+        cursor: pointer;
+        width: 75%;
+        height: 35px;
+        font-size: 1.3rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: #fff;
+        border: none;
+        background: none;
+        background-color: #1b182b;
+    }
+
+    .info-jogo-comprar button:hover{
+        background-color: #fa5353;
+    }
+
+/*Estilizando as informações ao lado do carousel relacionado ao botão de compra*/
+
+/*Estilizando as informações ao lado do carousel relacionado a categória/gênero*/
+
+    .categoria-do-jogo{
+        display: block;
+        margin: 20px 0px 20px 50px;
+    }
+
+    .genero{
+        margin-top: 15px;
+        text-align: center;
+        max-width: 300px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .genero p{
+        margin-bottom: 10px;
+        background-color: #2e2c38;
+        padding: 7px 7px;
+        border-radius: 10%;
+        margin-right: 10px;
+    }
+
+    .genero1{
+        display: flex;
+    }
+
+    .genero2{
+        display: flex;
+    }
+
+
+/*Estilizando as informações ao lado do carousel relacionado a categória/gênero*/
+
+
+/*Estilizando as informações ao lado do carousel relacionado a classificação indicativa*/
+
+    .classificacao-etaria{
+        margin: 20px 0px 20px 50px;
+    }    
+
+    .logo{
+        display: flex;
+        margin-top: 15px;
+    }
+
+    .logo img{
+        margin-right: 10px;
+        width: 50px;
+        height: 50px;
+    }
+
+/*Estilizando as informações ao lado do carousel relacionado a classificação indicativa*/
+
+/*Estilizando as informações ao lado do carousel/
+
+
+/*Estilizando o segundo bloco*/
+
+/*Estilizando a descrição do jogo*/
+
+
+    .block2{
+        width: 958px;
+        margin: 0 auto;
+        position: relative;
+        top: 15px;
+        display: flex;
+        justify-content: center;
+        text-align: justify;
+        font-size: 1.2rem;
+    }
+
+    .block2_decricao_titulo h2{
+        margin-bottom: 20px;
+    }
+
+    .descricao-texto{
+        display: none;
+    }
+
+    .botao_do_texto{
+        display: flex;
+        justify-content: center;
+        margin-top: 20px;
+    }
+
+    .botao_do_texto button{
+        cursor: pointer;
+        border: none;
+        background-color: #2e2c38;
+        width: 250px;
+        height: 45px;
+        font-size: 1rem;
+        color: #fff;
+    }
+
+    .botao_do_texto button:hover{
+        background-color: #fa5353;
+    }
+
+
+/*Estilizando a descrição do jogo*/
+
+/*Estilizando o segundo bloco*/
+
+/*Estilizando o terceiro bloco*/
+
+/*Estilizando a parte de especificações do jogo*/
+
+    .block3{
+        width: 958px;
+        height: 100%;
+        background-color: #2e2c38;
+        margin: 0 auto;
+        position: relative;
+        top: 40px;
+        font-size: 1.2rem;
+        margin-bottom: 80px;
+        padding-bottom: 20px;
+    }
+
+    .block3_text{
+        position: relative;
+        top: 40px;
+        margin-left: 80px;
+        margin-right: 100px;
+    }
+
+    .requisitos{
+        margin-left: 80px;
+        margin-right: 57px;
+        display: flex;
+        position: relative;
+        top: 60px;
+        display: flex;
+    }
+
+    .requisitos_minimo{
+        width: 479px;
+    }
+
+    .requisitos_recomendado{
+        width: 479px;
+    }
+
+    .requisitos_recomendado1{
+        display: none;
+    }
+
+    .requisitos_minimo, .requisitos_minimo, .requisitos_recomendado1, .idiomas_disponiveis_texto{
+        color: #fa5353;
+    }
+
+    .requisitos_m_e_r{
+        display: flex;
+        justify-content: center;
+        position: relative;
+        top: 70px;
+        width: 479px;
+        margin-left: 250px;
+    }
+
+    .requisitos_classificacao{
+        margin-top: 10px;
+        margin-bottom: 10px;
+        color: #fff;
+    }
+
+    .requisitos h4{
+        margin-right: 10px;
+    }
+
+    .requisitos_m, .requisitos_re{
+        width: 400px;
+        margin-right: 10px;
+    }
+
+    .idiomas_audio, .idiomas_texto{
+        text-align: justify;
+        display: flex;
+        margin-top: 5px;
+        margin-right: 10px;
+        color: gray;
+        width: 800px;
+    }
+
+    #idiomas_texto{
+        color: gray;
+        margin-right: 10px;
+    }
+
+    .idiomas_disponiveis{
+        margin-top: 100px;
+        position: relative;
+        left: 8.8%;
+        width: 850px;
+        text-align: inherit;
+    }
+
+
+
+/*Estilizando a parte de especificações do jogo*/
+
+/*Estilizando o terceiro bloco*/

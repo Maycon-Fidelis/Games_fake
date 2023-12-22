@@ -1,0 +1,556 @@
+@media screen and (max-width: 1340px) {
+
+    /*Deixando responsivo o carousel inicial*/
+    
+    .block1{
+        height: 700px;
+    }
+
+    .slide-image.active {
+        width: 1030px;
+        height: 590px;
+    }
+
+    /*Deixando responsivo o carousel inicial*/
+
+    /*Deixando responsivo o segundo carousel dos jogos em promoção*/
+
+    .block2{
+        height: 430px;
+    }
+
+    .text_block2 h2 {
+        font-size: 1.3rem;
+    }
+
+    .titulo_do_jogo{
+        font-size: 0.75rem;
+    }
+
+    .desconto2{
+        font-size: 1rem;
+    }
+
+    .valor2 {
+        margin-left: 38%;
+        font-size: 1rem;
+      }
+
+
+    .text_block2 {
+        height: 90px;
+        
+      }
+
+    /*Deixando responsivo o segundo carousel dos jogos em promoção*/
+
+    /*Deixando responsivo a seção de todos os jogos*/
+
+      .jogos {
+        width: 317px;
+      }
+
+      .todos_os_jogos{
+        height: 250px;
+        margin-bottom: 80px;
+      }
+
+      #WD2, #FIFA{
+        display: none;
+      }
+
+    /*Deixando responsivo a seção de todos os jogos*/
+
+  }
+
+  @media screen and (max-width: 1152px) {
+    #ocultar{
+        display: none;
+    }    
+  }
+
+
+@media screen and (max-width: 1160px) {
+    
+    /*Deixando responsivo o carousel inicial*/
+    
+    .block1{
+        height: 600px;
+    }
+
+    .slide-image.active {
+        width: 820px;
+        height: 450px;
+    }
+
+    .carousel-text {
+        bottom: 10%;
+        left: 53%;
+    }
+
+    
+    /*.desconto {
+        height: 20%;
+    }/*
+
+    .valor {
+        width: 20%;
+    }
+
+    /*Deixando responsivo o carousel inicial*/
+
+    /*Deixando responsivo o segundo carousel dos jogos em promoção*/
+
+    .block2{
+        height: 420px;
+    }
+
+    .titulo_do_jogo{
+        font-size: 1rem;
+    }
+
+    .slick_prev, .slick_next {
+        position: relative;
+        bottom: 2rem;
+    }
+
+    /*Deixando responsivo o segundo carousel dos jogos em promoção*/
+
+    /*Deixando responsivo a seção de todos os jogos*/
+    
+      .todos_os_jogos{
+        height: 250px;
+      }
+
+
+    /*Deixando responsivo a seção de todos os jogos*/
+
+}
+
+@media screen and (max-width: 932px){
+
+    /*Deixando responsivo o carousel inicial*/
+    
+    .block1{
+        height: 500px;
+    }
+
+    .slide-image.active {
+        width: 700px;
+        height: 330px;
+    }
+
+    .carousel-text {
+        bottom: 10%;
+        left: 53%;
+    }
+
+
+    /*.desconto {
+        height: 20%;
+    }*/
+
+    .valor {
+        width: 20%;
+    }
+
+    .titulo_do_jogo span{
+        display: none;
+    }
+
+    /*Deixando responsivo o carousel inicial*/
+
+    
+    /*Deixando responsivo o segundo carousel dos jogos em promoção*/
+
+    .block2{
+        height: 390px;
+    }
+
+    /*Deixando responsivo o segundo carousel dos jogos em promoção*/
+
+    /*Deixando responsivo a seção de todos os jogos*/
+
+    #AC_V, #Gear5{
+        display: none;
+    }
+    
+    /*Deixando responsivo a seção de todos os jogos*/
+
+}
+
+@media screen and (max-width: 769px) {
+    /*Deixando responsivo o segundo carousel dos jogos em promoção*/
+
+    .block2{
+        height: 490px;
+    }
+    
+    /*Deixando responsivo o segundo carousel dos jogos em promoção*/
+    
+}
+
+
+@media screen and (max-width: 810px) {
+
+    /*tirando os itens do navbar superior e subtituindo por um nav-menu*/
+
+    .header_right{
+        z-index: 3;
+        display: none;
+        top: 50px;
+        right: 1px;
+        position: absolute;
+        background-color: #322f40;
+        width: 100%;
+        justify-content: center;
+    }
+
+    .header_right_mobile{
+        display: flex;
+    }
+
+    .header_right.active{
+        display: grid;
+    }
+
+    .header_right a{
+        height: 45px;
+    }
+
+    .plataformas{
+        height: 45px;
+    }
+
+    .header_right a:hover{
+        color: #fa5353;
+    }
+
+    .menu_oculto.active2{
+        display: inline;
+        position: relative;
+        top: 13px;
+    }
+
+    #plataformas2.active2{
+        height: 250px;
+    }
+
+    li{
+        display: flex;
+        justify-content: center;
+    }
+
+    #pc:active{
+        fill: #fff;
+        color: #fff;
+    }
+
+    #playsation:active{
+        fill: #0070D1;
+        color: #0070D1;
+    }
+
+    #xbox:active{
+        fill: #14B821;
+        color: #14B821;
+    }
+
+    #nintendo:active{
+        color: red;
+        fill: red;
+    }
+
+    .menu_oculto ul{
+        background-color: #322f40;
+    }
+
+    .menu_de_3_linhas{
+        cursor: pointer;
+    }
+
+    .menu_de_3_linhas_novo{
+        display: none;
+        cursor: pointer;
+    }
+
+    .menu_de_3_linhas.active{
+        display: none;
+    }
+
+    .menu_de_3_linhas_novo.active{
+        display: block;
+        fill: #fff;
+    }
+
+    .menu_oculto{
+        display: none;
+    }
+
+    #plataformas2.active{
+        height: 250px;
+    }
+
+    /*tirando os itens do navbar superior e subtituindo por um nav-menu*/
+
+    /*Deixando responsivo o carousel inicial*/
+        
+    .block1{
+        height: 400px;
+    }
+
+    .slide-image.active {
+        width: 550px;
+        height: 280px;
+    }
+
+    /*.desconto {
+        height: 5%;
+    }*/
+
+    .valor {
+        width: 25%;
+    }
+
+    /*Deixando responsivo o carousel inicial*/
+
+    /*Deixando a parte de todos os jogos responsivo*/
+
+    .icone_de_jogo{
+        margin-bottom: 15px;
+    }
+
+    /*Deixando a parte de todos os jogos responsivo*/
+
+}
+
+
+@media screen and (max-width: 654px) {
+
+    /*Deixando responsivo o carousel inicial*/
+        
+    .slick-prev{
+        position: relative;
+        left: 58px;
+        background-color: #1b182b;
+        z-index: 2;
+        border-top-right-radius: 10%;
+        border-bottom-right-radius: 10%;
+    }
+
+    .slick-next{
+        position: relative;
+        right: 58px;
+        background-color: #1b182b;
+        z-index: 2;
+        border-top-left-radius: 10%;
+        border-bottom-left-radius: 10%;
+    }
+
+    /*Deixando responsivo o carousel inicial*/
+    
+
+    /*Deixando a parte de todos os jogos responsivo*/
+
+    .todos_os_jogos{
+        display: grid;
+        margin-bottom: 390px;
+    }
+
+    .jogo_icone{
+        margin-bottom: 13px;
+        margin-right: 0px;
+    }
+        
+    /*Deixando a parte de todos os jogos responsivo*/
+
+    /*Deixando responsivo o segundo carousel dos jogos em promoção*/
+
+    .block2{
+        height: 430px;
+    }
+    
+    /*Deixando responsivo o segundo carousel dos jogos em promoção*/
+
+}
+
+@media screen and (max-width: 559px) {
+
+    /*Deixando responsivo o carousel inicial*/
+
+    .valor{
+        display: none;
+    }
+    .slide-image.active{
+        width: 447px;
+    }
+        
+    .slick-prev{
+        position: relative;
+        bottom: 10px;
+    }
+
+    .slick-next{
+        position: relative;
+        bottom: 10px;
+    }
+
+    /*Deixando responsivo o carousel inicial*/
+
+    /*Deixando responsivo o segundo carousel dos jogos em promoção*/
+
+    .block2{
+        height: 360px;
+    }
+
+    /*Deixando responsivo o segundo carousel dos jogos em promoção*/
+    
+}
+
+
+@media screen and (max-width: 480px) {
+
+     /*Deixando responsivo o carousel inicial*/
+
+     .block1{
+        height: 300px;
+     }
+
+    .slide-image.active{
+        width: 368px;
+        height: 195px;
+    }
+        
+    /*Deixando responsivo o carousel inicial*/
+    
+    /*Deixando responsivo o segundo carousel dos jogos em promoção*/
+
+    .block2{
+        height: 575px;
+    }
+
+    .slick_prev svg{
+        position: relative;
+        left: 5px;
+    }
+
+    .slick_next svg{
+        position: relative;
+        right: 5px;
+    }
+
+    /*Deixando responsivo o segundo carousel dos jogos em promoção*/
+
+}
+
+@media screen and (max-width: 376px) {
+    
+    /*Deixando responsivo o segundo carousel dos jogos em promoção*/
+
+    .block2 {
+        height: 495px;
+    }
+    
+    /*Deixando responsivo o segundo carousel dos jogos em promoção*/
+}
+
+
+@media screen and (max-width: 376px) {
+    /*Deixando responsivo o carousel inicial*/
+
+      .block1{
+        height: 250px;
+     }
+
+    .slide-image.active{
+        width: 315px;
+        height: 150px;
+    }
+        
+    .slick-prev{
+        position: relative;
+        top: 5px;
+    }
+
+    .slick-next{
+        position: relative;
+        top: 5px;
+    }
+
+    /*Deixando responsivo o carousel inicial*/
+
+    /*Deixando responsivo o segundo carousel dos jogos em promoção*/
+
+    .block2{
+        height: 440px;
+    }
+
+    .slick_prev svg{
+        position: relative;
+        left: 15px;
+    }
+
+    .slick_next svg{
+        position: relative;
+        right: 15px;
+    }
+
+    /*Deixando responsivo o segundo carousel dos jogos em promoção*/
+
+}
+
+/*Deixando responsivo a seção de todos os jogos */
+
+/*@media(max-width: 1341px){
+    .block3_text{
+        margin-bottom: 50px;
+    }
+}
+
+@media(max-width: 1231px){
+    #WD2, #FIFA{
+        display: none;
+    }
+}
+
+@media(max-width: 939px){
+    #AC_V, #Gear5{
+        display: none;
+      }
+}
+
+@media(max-width: 810px){
+    .block3_text{
+        margin-bottom: 100px;
+    }
+}
+
+@media(max-width: 629px){
+    .todos_os_jogos{
+        display: grid;
+        margin-bottom: 400px;
+    }
+
+    .jogo_icone{
+        margin-bottom: 20px;
+    }
+
+    .block3{
+        margin-top: 40px;
+        margin-bottom: 400px;
+    }
+
+    .block3_text{
+        margin-bottom: 20px;
+    }
+
+    .todos_os_jogos{
+        right: 0px;
+    }
+
+    .jogo_icone{
+        margin-right: 0px;
+    }
+}*/
+
+/*Deixando responsivo a seção de todos os jogos */

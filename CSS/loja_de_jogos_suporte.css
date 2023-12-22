@@ -1,0 +1,73 @@
+.duvida{
+    position: relative;
+    top: 100px;
+    display: grid;
+    margin-bottom: 100px;
+    justify-content: center;
+    align-items: center;
+}
+
+.contato h4{
+    position: relative;
+    left: 160px;
+}
+
+.topicos_de_contato {
+display: flex;
+justify-content: center;
+align-items: center;
+flex-wrap: wrap;
+max-width: 1300px;
+margin: 0 auto;
+padding: 20px;
+}
+
+.block {
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+flex: 0 0 320px;
+height: 212px;
+background-color: #322f40;
+margin: 10px;
+box-sizing: border-box;
+border-radius: 10px;
+cursor: pointer;
+}
+
+.block h2 {
+margin-top: 10px;
+margin-bottom: 30px;
+}
+
+.block img {
+width: 100px;
+height: 100px;
+}
+
+
+.block:hover{
+    background-color: #fa5353;
+}
+
+@media screen and (max-width: 682px) {
+    .duvida{
+        font-size: 0.8rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .duvida h1{
+        width: 300px;
+    }
+}
+
+@media screen and (max-width: 597px){
+    .duvida h1{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 300px;
+    }
+}

@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="CSS/tela-de-login-style.css">
+    <link rel="stylesheet" href="CSS/Loja_de_jogos.css">
+    <link rel="stylesheet" href="CSS/loja_de_jogos_css-responsivo.css">
+    <title>Tela de Login</title>
+</head>
+
+<body>
+    <!--HTML da barra de navegção-->
+    <header class="header">
+        <!--Divisão da parte esquerda da barra de navegação-->
+        <div class="header_left">
+            <a href="Loja_de_jogos.html" class="logo">Games<span>Fake</span></a>
+        </div>
+        <!--Divisão da parte esquerda da barra de navegação-->
+
+        <!--Divisão da parte direita da barra de navegação-->
+        <div class="header_right_mobile">
+            <svg class="menu_de_3_linhas" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="20" height="20"
+                viewBox="0,0,256,256" ;">
+                <g fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter"
+                    stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none"
+                    font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal">
+                    <g transform="scale(5.12,5.12)">
+                        <path
+                            d="M3,8c-0.72127,-0.0102 -1.39216,0.36875 -1.75578,0.99175c-0.36361,0.623 -0.36361,1.39351 0,2.01651c0.36361,0.623 1.0345,1.00195 1.75578,0.99175h44c0.72127,0.0102 1.39216,-0.36875 1.75578,-0.99175c0.36361,-0.623 0.36361,-1.39351 0,-2.01651c-0.36361,-0.623 -1.0345,-1.00195 -1.75578,-0.99175zM3,23c-0.72127,-0.0102 -1.39216,0.36875 -1.75578,0.99175c-0.36361,0.623 -0.36361,1.39351 0,2.01651c0.36361,0.623 1.0345,1.00195 1.75578,0.99175h44c0.72127,0.0102 1.39216,-0.36875 1.75578,-0.99175c0.36361,-0.623 0.36361,-1.39351 0,-2.01651c-0.36361,-0.623 -1.0345,-1.00195 -1.75578,-0.99175zM3,38c-0.72127,-0.0102 -1.39216,0.36875 -1.75578,0.99175c-0.36361,0.623 -0.36361,1.39351 0,2.01651c0.36361,0.623 1.0345,1.00195 1.75578,0.99175h44c0.72127,0.0102 1.39216,-0.36875 1.75578,-0.99175c0.36361,-0.623 0.36361,-1.39351 0,-2.01651c-0.36361,-0.623 -1.0345,-1.00195 -1.75578,-0.99175z">
+                        </path>
+                    </g>
+                </g>
+            </svg>
+            <svg class="menu_de_3_linhas_novo" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="20" height="20"
+                viewBox="0,0,256,256" ;">
+                <g fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter"
+                    stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none"
+                    font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal">
+                    <g transform="scale(5.12,5.12)">
+                        <path
+                            d="M3,8c-0.72127,-0.0102 -1.39216,0.36875 -1.75578,0.99175c-0.36361,0.623 -0.36361,1.39351 0,2.01651c0.36361,0.623 1.0345,1.00195 1.75578,0.99175h44c0.72127,0.0102 1.39216,-0.36875 1.75578,-0.99175c0.36361,-0.623 0.36361,-1.39351 0,-2.01651c-0.36361,-0.623 -1.0345,-1.00195 -1.75578,-0.99175zM3,23c-0.72127,-0.0102 -1.39216,0.36875 -1.75578,0.99175c-0.36361,0.623 -0.36361,1.39351 0,2.01651c0.36361,0.623 1.0345,1.00195 1.75578,0.99175h44c0.72127,0.0102 1.39216,-0.36875 1.75578,-0.99175c0.36361,-0.623 0.36361,-1.39351 0,-2.01651c-0.36361,-0.623 -1.0345,-1.00195 -1.75578,-0.99175zM3,38c-0.72127,-0.0102 -1.39216,0.36875 -1.75578,0.99175c-0.36361,0.623 -0.36361,1.39351 0,2.01651c0.36361,0.623 1.0345,1.00195 1.75578,0.99175h44c0.72127,0.0102 1.39216,-0.36875 1.75578,-0.99175c0.36361,-0.623 0.36361,-1.39351 0,-2.01651c-0.36361,-0.623 -1.0345,-1.00195 -1.75578,-0.99175z">
+                        </path>
+                    </g>
+                </g>
+            </svg>
+        </div>
+        <div class="header_right">
+            <a href="loja_de_jogos_suporte.html" class="suporte">Suporte <svg xmlns="http://www.w3.org/2000/svg"
+                    width="20" height="20" viewBox="-2 -2 24 24" style="transform: ;msFilter:;">
+                    <path
+                        d="M12 2C6.486 2 2 6.486 2 12v4.143C2 17.167 2.897 18 4 18h1a1 1 0 0 0 1-1v-5.143a1 1 0 0 0-1-1h-.908C4.648 6.987 7.978 4 12 4s7.352 2.987 7.908 6.857H19a1 1 0 0 0-1 1V18c0 1.103-.897 2-2 2h-2v-1h-4v3h6c2.206 0 4-1.794 4-4 1.103 0 2-.833 2-1.857V12c0-5.514-4.486-10-10-10z">
+                    </path>
+                </svg></a>
+            <a href="#" class="entrar">Entrar<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20"
+                    viewBox="-2 -1 24 24" style="transform: ;msFilter:;">
+                    <path
+                        d="M12 2a5 5 0 1 0 5 5 5 5 0 0 0-5-5zm0 8a3 3 0 1 1 3-3 3 3 0 0 1-3 3zm9 11v-1a7 7 0 0 0-7-7h-4a7 7 0 0 0-7 7v1h2v-1a5 5 0 0 1 5-5h4a5 5 0 0 1 5 5v1z">
+                    </path>
+                </svg></a>
+            <div class="plataformas">
+                <a href="#" id="plataformas" class="plataformas">Plataformas <svg xmlns="http://www.w3.org/2000/svg"
+                        width="20" height="20" viewBox="6 2 24 24"
+                        style="transform: rotate(90deg);msFilter:progid:DXImageTransform.Microsoft.BasicImage(rotation=1);">
+                        <path d="M10.061 19.061 17.121 12l-7.06-7.061-2.122 2.122L12.879 12l-4.94 4.939z"></path>
+                    </svg></a>
+                <!--HTML do Menu oculto-->
+                <div class="menu_oculto">
+                    <ul>
+                        <li id="pc">
+                            <a href="/Games_fake/jogos_de.php?plataforma=pc" id="pc">
+                            <img src="Imagens\icones_da_navbar\plataformas\icon-pc.png">
+                            <p style="color: #fff;">PC</p>
+                        </a>
+                        </li>
+                        <li id="playsation">
+                            <a href="/Games_fake/jogos_de.php?plataforma=ps" id="playstation">
+                            <img src="Imagens\icones_da_navbar\plataformas\icon-playstation.png">                                
+                            <p style="color: #0070D1;">Playstation</p>
+                            </a>
+                        </li>
+                        <li id="xbox">
+                            <a href="/Games_fake/jogos_de.php?plataforma=xbox" id="xbox">
+                            <img width="20px" height="20px" src="Imagens\icones_da_navbar\plataformas\icon-xbox.png">
+                            Xbox
+                            </a>
+                        </li>
+                        <li id="nintendo">
+                            <a href="/Games_fake/jogos_de.php?plataforma=switch" id="nintendo">
+                            <img src="Imagens\icones_da_navbar\plataformas\icon-nintendo_switch.png">
+                            Nintendo
+                            </a>
+                        </li>
+
+                    </ul>
+                </div>
+                <!--HTML do Menu oculto-->
+
+            </div>
+
+            <a href="#" class="carrinho">Carrinho <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20"
+                    viewBox="-2 -1.5 24 24" style="transform: ;msFilter:;">
+                    <path
+                        d="M21.822 7.431A1 1 0 0 0 21 7H7.333L6.179 4.23A1.994 1.994 0 0 0 4.333 3H2v2h2.333l4.744 11.385A1 1 0 0 0 10 17h8c.417 0 .79-.259.937-.648l3-8a1 1 0 0 0-.115-.921zM17.307 15h-6.64l-2.5-6h11.39l-2.25 6z">
+                    </path>
+                    <circle cx="10.5" cy="19.5" r="1.5"></circle>
+                    <circle cx="17.5" cy="19.5" r="1.5"></circle>
+                </svg></a>
+
+
+        </div>
+
+        <!--Divisão da parte direita da barra de navegação-->
+    </header>
+
+    <!--HTML da barra de navegaão-->
+
+    <div class="block">
+        <div id="conteudo" class="conteudo">
+
+            <div class="nao_tenho_conta">
+                <p>Já Possui Conta ?</p>
+                <button class="botao_NTC">Fazer Login</button>
+            </div>
+            <div id="lado-esquerdo" class="lado-esquerdo">
+
+                <h2 id="entrar1" class="entrar1">Entrar</h2>
+
+                <div id="icones" class="icones">
+                    <svg id="facebook" class="facebook" xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                        fill="currentColor" class="bi bi-facebook" viewBox="0 0 16 16">
+                        <path
+                            d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z" />
+                    </svg>
+                    <svg id="linkedin" class="linkedin" xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                        fill="currentColor" class="bi bi-linkedin" viewBox="0 0 16 16">
+                        <path
+                            d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854V1.146zm4.943 12.248V6.169H2.542v7.225h2.401zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248-.822 0-1.359.54-1.359 1.248 0 .694.521 1.248 1.327 1.248h.016zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016a5.54 5.54 0 0 1 .016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225h2.4z" />
+                    </svg>
+                    <svg id="google" class="google" xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                        fill="currentColor" class="bi bi-google" viewBox="0 0 16 16">
+                        <path
+                            d="M15.545 6.558a9.42 9.42 0 0 1 .139 1.626c0 2.434-.87 4.492-2.384 5.885h.002C11.978 15.292 10.158 16 8 16A8 8 0 1 1 8 0a7.689 7.689 0 0 1 5.352 2.082l-2.284 2.284A4.347 4.347 0 0 0 8 3.166c-2.087 0-3.86 1.408-4.492 3.304a4.792 4.792 0 0 0 0 3.063h.003c.635 1.893 2.405 3.301 4.492 3.301 1.078 0 2.004-.276 2.722-.764h-.003a3.702 3.702 0 0 0 1.599-2.431H8v-3.08h7.545z" />
+                    </svg>
+                </div>
+
+                <P id="texto_descritivo" class="texto_descritivo">ou use sua conta</P>
+
+                <div id="campo_de_login" class="campo_de_login">
+                    <input type="email" placeholder="E-mail">
+                    <input type="password" placeholder="Senha">
+                </div>
+
+                <a href="#" id="esqueceu_a_senha" class="esqueceu_a_senha">Esqueceu a senha ?</a>
+
+                <div id="botao" class="botao">
+                    <button>Entrar</button>
+                </div>
+            </div>
+
+            <div id="lado-direito" class="lado-direito">
+                <h2 id="entrar" class="entrar1">Criar conta</h2>
+
+                <div id="icones" class="icones">
+                    <svg id="facebook" class="facebook" xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                        fill="currentColor" class="bi bi-facebook" viewBox="0 0 16 16">
+                        <path
+                            d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z" />
+                    </svg>
+                    <svg id="linkedin" class="linkedin" xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                        fill="currentColor" class="bi bi-linkedin" viewBox="0 0 16 16">
+                        <path
+                            d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854V1.146zm4.943 12.248V6.169H2.542v7.225h2.401zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248-.822 0-1.359.54-1.359 1.248 0 .694.521 1.248 1.327 1.248h.016zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016a5.54 5.54 0 0 1 .016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225h2.4z" />
+                    </svg>
+                    <svg id="google" class="google" xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                        fill="currentColor" class="bi bi-google" viewBox="0 0 16 16">
+                        <path
+                            d="M15.545 6.558a9.42 9.42 0 0 1 .139 1.626c0 2.434-.87 4.492-2.384 5.885h.002C11.978 15.292 10.158 16 8 16A8 8 0 1 1 8 0a7.689 7.689 0 0 1 5.352 2.082l-2.284 2.284A4.347 4.347 0 0 0 8 3.166c-2.087 0-3.86 1.408-4.492 3.304a4.792 4.792 0 0 0 0 3.063h.003c.635 1.893 2.405 3.301 4.492 3.301 1.078 0 2.004-.276 2.722-.764h-.003a3.702 3.702 0 0 0 1.599-2.431H8v-3.08h7.545z" />
+                    </svg>
+                </div>
+
+                <p id="texto_descritivo" class="texto_descritivo">ou utilize seu e-mail</p>
+
+                <div id="campo_de_login" class="campo_de_login">
+
+                    <input type="text" placeholder="Nome">
+                    <input type="email" placeholder="E-mail">
+                    <input type="password" placeholder="Senha">
+
+                </div>
+
+                <div class="botao1" id="botao1">
+                    <button>Criar a conta</button>
+                </div>
+            </div>
+
+            <div class="ja_tenho_conta">
+                <p>Não tem Conta ?</p>
+                <button class="botao_TC" type="button" onclick="funcaoBotao()">Criar Conta</button>
+            </div>
+
+            <div id="todo_conteudo" class="todo_conteudo">
+                <div id="conteudo_flutuante" class="conteudo_flutuante">
+                    <div class="lado_esquerdo">
+                        <h2 id="texto_conteudo_flutuante" class="texto_conteudo_flutuante">Bem-vindo de Volta!</h2>
+
+                        <p id="texto_descritivo_conteudo_flututante" class="texto_descritivo_conteudo_flututante">Se
+                            mantenha conectado fazendo login com as suas informações!</p>
+
+                        <div id="botao_conteudo_flutuante" class="botao_conteudo_flutuante">
+                            <button id="botao_ja_tenho_conta" class="botao_ja_tenho_conta" type="button"
+                                onclick="funcaoBotao()" value="botao">JÁ TENHO UMA CONTA</button>
+                        </div>
+                    </div>
+                    <div class="lado_direito">
+                        <h2 id="texto_conteudo_flutuante" class="texto_conteudo_flutuante">Olá, amigo(a)!</h2>
+
+                        <p id="texto_descritivo_conteudo_flututante" class="texto_descritivo_conteudo_flututante">Insira
+                            algumas informações e comece sua jornada conosco!</p>
+
+                        <div id="botao_conteudo_flutuante" class="botao_conteudo_flutuante">
+                            <button id="botao_criar_conta" class="botao_criar_conta">QUERO CRIAR UMA CONTA</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <script type="text/javascript" src="JAVASCRIPT/Tela_de_login.js"></script>
+    <script type="text/javascript" src="JAVASCRIPT/Loja_de_jogos_js.js"></script>
+
+</body>
+
+</html>

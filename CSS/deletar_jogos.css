@@ -1,0 +1,61 @@
+.jogo_informacoes{
+    height: 190px;
+}
+
+#deletar_jogo{
+    margin-top: 10px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+
+#deletar_jogo button{
+    cursor: pointer;
+    width: 150px;
+    height: 35px;
+    font-size: 1rem;
+    color: #fff;
+    background-color: #fa5353;
+    border-radius: 12px;
+    border: none;
+    margin-top: 7px;
+}
+
+.caixa_de_mensagem{
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 9999;
+    width: 350px;
+    height: 300px;
+    background-color: #322f40;
+}
+
+.caixa_de_mensagem h3{
+    color: #fa5353;
+    display: grid;
+    width: 300px; 
+    margin-top: 40px;
+    margin-left: 30px;
+}
+
+.caixa_de_mensagem_botao{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+.caixa_de_mensagem_botao button, .caixa_de_mensagem_botao input{
+    cursor: pointer;
+    margin-top: 20px;
+    width: 230px;
+    height: 35px;
+    background-color: #fa5353;
+    border: none;
+    border-radius: 12px;
+    font-size: 1.2rem;
+    color: #fff;
+}

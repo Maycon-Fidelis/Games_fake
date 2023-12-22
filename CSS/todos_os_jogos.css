@@ -1,0 +1,127 @@
+    /*Estrutura css para mostrar todos os jogos*/
+    .todos-os-jogos {
+      padding-top: 100px;
+      display: grid;
+      justify-content: center;
+    }
+
+    .todos-os-jogos h2 {
+      font-size: 1.2rem;
+      margin-bottom: 10px;
+    }
+
+    .todos-os-jogos-block {
+      display: inline-grid;
+      grid-template-columns: repeat(3,1fr);
+      gap: 10px;
+    }
+
+    .todos-os-jogos-block a {
+      text-decoration: none;
+      color: #fff;
+    }
+
+    @media (max-width: 1116px){
+      .todos-os-jogos-block {
+        grid-template-columns: repeat(2,1fr);  
+      }      
+    }
+
+    @media (max-width: 634px){
+      .todos-os-jogos-block {
+        grid-template-columns: repeat(1,1fr);
+      }
+    }
+    /*Estrutura css para mostrar todos os jogos*/
+
+    /*Estrutura da aparencia do block do jogo*/
+    .jogo_icone{
+      margin-bottom: 10px;
+    }
+
+    .jogo_icone a{
+      width: 294px;
+      height: 250px;
+      cursor: pointer;
+    }
+
+    #editar_jogo{
+      margin-top: 10px;
+      width: 100%;
+      display: flex;
+      justify-content: center;
+    }
+
+    #editar_jogo a {
+      cursor: pointer;
+      width: 150px;
+      height: 35px;
+      font-size: 1rem;
+      color: #fff;
+      background-color: #fa5353;
+      border-radius: 12px;
+      border: none;
+      margin-top: 7px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .jogo_imagem {
+      width: 294px;
+      height: 137px;
+    }
+
+    .jogo_imagem img {
+      width: 100%;
+      height: 100%;
+    }
+
+    .jogo_informacoes {
+      width: 294px;
+      height: 175px;
+      margin-top: -6px;
+      background-color: #322f40;
+      z-index: 999;
+    }
+
+    .plataformas_icone {
+      display: flex;
+      height: 40px;
+    }
+
+    .plataformas_icone img {
+      width: 20px;
+      height: 20px;
+      margin-left: 20px;
+      margin-top: 20px;
+    }
+
+    .nome_do_jogo {
+      margin-left: 20px;
+      margin-top: 10px;
+    }
+
+    .valor2 {
+      width: 254px;
+      margin-left: 20px;
+      margin-top: 20px;
+      font-size: 1.5rem;
+    }
+
+    .desconto {
+      float: left;
+      background-color: #fa5353;
+      width: 60px;
+      height: 40px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border-radius: 7px;
+    }
+
+    .preco {
+      float: right;
+    }
+
+    /*Estrutura da aparencia do block do jogo*/

@@ -1,0 +1,521 @@
+@media screen and (max-width: 972px) {
+
+    /*Deixando responsivo o block1, que contem o titulo do jogo, carousel e informações*/
+        
+            .fixar_o_titulo_do_jogo {
+                width: 600px;
+            }
+
+            .nome_do_jogos {
+            font-size: 1.5rem;
+            width: 325px;
+            }
+
+            .block-jogo2{
+                display: grid;
+                margin-right: 296px;
+            }
+
+            .carousel-do-jogo {
+                margin-left: 297px;
+            }
+
+            .carousel-big img{
+                width: 100%;
+                height: 100%;
+            }
+
+            .carousel-big iframe{
+                width: 100%;
+                height: 337px;
+            }
+        
+            .informacoes_plataformas p{
+                display: none;
+            }
+
+            #plataformas-pc, #plataformas-playstation, #plataformas-xbox, #plataformas-nintendo{
+                width: 40px;
+                height: 40px;
+                display: flex;
+                justify-content: center;
+                border-radius: 8px;
+            }
+
+            .plataformas2 img{
+                margin-right: 0px;
+            }
+
+            .informacoes-do-jogo {
+                margin-left: 297px;
+                position: relative;
+                bottom: 30px;
+                height: 300px;
+            }
+        
+            .valor_responsivo {
+                margin-left: 0px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                margin-top: 25px;
+            }
+
+            .preco{
+                left: 25px;
+            }
+
+            .preco_desconto{
+                width: 180px;
+            }
+        
+            .info-jogo-comprar button{
+                height: 50px;
+                width: 300px;
+                margin-right: 15px;
+            }
+        
+            .informacoes-do-jogo2{
+                display: flex;
+            }
+            
+            .genero p{ 
+                display: grid;
+                align-content: center;
+            }
+
+            .categoria-do-jogo, .classificacao-etaria {
+                margin: 20px 0px 20px 36px;
+                width: 250px;
+            }
+    
+    /*Deixando responsivo o block1, que contem o titulo do jogo, carousel e informações*/
+    
+    /*Deixando responsivo o block2, que contem a descrição do jogo*/
+    
+        .block2 {
+            top: 340px;
+            width: 600px;
+        }
+    
+    /*Deixando responsivo o block2, que contem a descrição do jogo*/
+
+    /*Deixando responsivo a parte que contem o as informações do jogo*/
+    
+        .block3{
+            margin-top: 315px;
+            width: 625px;
+        }
+    
+        .requisitos_m_e_r{
+            display: grid;
+            margin-left: 81px;
+        }
+
+        .requisitos_m, .requisitos_re{
+            width: 100%;
+        }
+    
+        .requisitos_recomendado{
+            display: none;
+        }
+    
+        .requisitos_recomendado1{
+            margin-top: 30px;
+            display: block;
+        }
+    
+        .idiomas_disponiveis{
+            left: 0%;
+            margin-top: 90px;  
+            margin-left: 81px;
+            width: 479px;
+        }
+    
+        .idiomas_audio, .idiomas_texto{
+            width: 470px;
+        }
+
+    /*Deixando responsivo a parte que contem o as informações do jogo*/
+    }
+
+
+    @media screen and (max-width: 810px) {
+
+        /*tirando os itens do navbar superior e subtituindo por um nav-menu*/
+    
+        .header_right{
+            z-index: 3;
+            display: none;
+            top: 50px;
+            right: 1px;
+            position: absolute;
+            background-color: #322f40;
+            width: 100%;
+            justify-content: center;
+        }
+    
+        .header_right_mobile{
+            display: flex;
+        }
+    
+        .header_right.active{
+            display: grid;
+        }
+    
+        .header_right a{
+            height: 45px;
+        }
+    
+        .plataformas{
+            height: 45px;
+        }
+    
+        .header_right a:hover{
+            color: #fa5353;
+        }
+    
+        .menu_oculto.active2{
+            display: inline;
+            position: relative;
+            top: 13px;
+        }
+    
+        #plataformas2.active2{
+            height: 250px;
+        }
+    
+        li{
+            display: flex;
+            justify-content: center;
+        }
+    
+        #pc:active{
+            fill: #fff;
+            color: #fff;
+        }
+    
+        #playsation:active{
+            fill: #0070D1;
+            color: #0070D1;
+        }
+    
+        #xbox:active{
+            fill: #14B821;
+            color: #14B821;
+        }
+    
+        #nintendo:active{
+            color: red;
+            fill: red;
+        }
+    
+        .menu_oculto ul{
+            background-color: #322f40;
+        }
+    
+        .menu_de_3_linhas{
+            cursor: pointer;
+        }
+    
+        .menu_de_3_linhas_novo{
+            display: none;
+            cursor: pointer;
+        }
+    
+        .menu_de_3_linhas.active{
+            display: none;
+        }
+    
+        .menu_de_3_linhas_novo.active{
+            display: block;
+            fill: #fff;
+        }
+    
+        .menu_oculto{
+            display: none;
+        }
+    
+        #plataformas2.active{
+            height: 250px;
+        }
+    
+        /*tirando os itens do navbar superior e subtituindo por um nav-menu*/
+    }
+    
+
+@media screen and (max-width: 623px){
+
+    /*Deixando responsivo o block1, que contem o titulo do jogo, carousel e informações*/
+
+    .fixar_o_titulo_do_jogo {
+        width: 450px;
+    }
+
+    .titulo_do_jogo {
+        right: 8.5%;
+    }
+
+    .icone_do_jogo {
+        width: 168px;
+        height: 78px;
+    }
+
+    .nome_do_jogos {
+        font-size: 1rem;
+        width: 270px;
+    }
+
+    .informacoes_plataformas {
+        position: relative;
+        top: -14px;
+    }
+
+    #plataformas-pc, #plataformas-playstation, #plataformas-xbox, #plataformas-nintendo {
+        width: 30px;
+        height: 30px;
+        display: flex;
+        justify-content: center;
+        border-radius: 8px;
+        margin-top: 5px;
+    }
+
+    .plataformas2 img{
+        top: 17%;
+    }
+
+    .carousel-big{
+        width: 450px;
+        height: 262px;
+    }
+
+    .carousel-big iframe{
+        width: 450px ;
+        height: 252px;
+    }
+
+    .slick-next, .slick-prev{
+        position: relative;
+        top: 150px;
+    }
+
+    .slick-prev {
+        position: relative;
+        left: -1px;
+    }
+
+    .slick-next {
+        position: relative;
+        left: 350.5px;
+    }
+
+    .carousel-thumbnails{
+        width: 450px;
+    }
+
+    .carousel-thumbnails img{
+        width: 100%;
+        height: 84px; 
+    }
+
+    .informacoes-do-jogo{
+        height: 550px;
+    }
+    .valor_responsivo{
+        display: grid;
+    }
+
+    .categoria-do-jogo, .classificacao-etaria{
+        margin: 30px 0px 20px 30px;
+        font-size: 1.2rem;
+        width: 100%;
+    }
+
+    .info-jogo-comprar button {
+        height: 50px;
+        width: 365px;
+    }
+
+    .valor {
+        margin-left: 20px;
+        justify-content: center;
+    }
+
+    .informacoes-do-jogo {
+        height: 550px;
+        width: 450px;
+    }
+
+    .informacoes-do-jogo2{
+        display: grid;
+        justify-content: center;
+    }
+
+
+    /*Deixando responsivo o block1, que contem o titulo do jogo, carousel e informações*/
+
+    /*Deixando responsivo o block2, que contem a descrição do jogo*/
+
+    .block2 {
+        top: 440px;
+        width: 449px;
+        
+    }
+
+    /*Deixando responsivo o block2, que contem a descrição do jogo*/
+
+    /*Deixando responsivo a parte que contem o as informações do jogo*/
+
+    .block3 {
+        margin-top: 430px;
+        width: 450px;
+    }
+
+    .block3_text {
+        margin-left: 35px;
+    }
+
+    .requisitos {
+        margin-left: 35px;
+    }
+
+
+    .requisitos_m_e_r {
+        margin-left: 86px;
+        width: 300px;
+    }
+
+    .requisitos_m, .requisitos_re {
+        width: 400px;
+    }
+
+    .idiomas_disponiveis {
+        margin-left: 30px;
+        width: 270px;
+    }
+
+    .idiomas_audio, .idiomas_texto {
+        width: 400px;
+    }
+    /*Deixando responsivo a parte que contem o as informações do jogo*/
+
+}
+
+@media screen and (max-width: 458px){
+
+    /*Deixando responsivo o block1, que contem o titulo do jogo, carousel e informações*/
+    .fixar_o_titulo_do_jogo {
+        width: 300px;
+        top: 6px;
+    }
+
+    .icone_do_jogo{
+        display: none;
+    }
+
+    .nome_do_jogos {
+        font-size: 1.36rem;
+    }
+
+    .titulo_do_jogo {
+        right: 17.5%;
+    }
+
+    .block-jogo2 {
+        margin-top: 1rem;
+        margin-right: 295px;
+    }
+
+    .slick-next, .slick-prev{
+        opacity: 100%;
+        position: relative;
+        top: 110px;
+    }
+
+    .slick-next {
+        position: relative;
+        left: 200.5px;
+    }
+
+    .carousel-big{
+        width: 300px;
+        height: 178px;
+    }
+
+    .carousel-big iframe{
+        width: 300px;
+        height: 168px;
+    }
+
+    .carousel-thumbnails{
+        width: 300px;
+        height: 100px;
+    }
+
+    .informacoes-do-jogo{
+        min-width: 300px;
+        width: 300px;
+    }
+
+    .categoria-do-jogo, .classificacao-etaria{
+        margin: 30px 0px -15px 30px;
+        font-size: 1rem;
+    }
+    
+    .info-jogo-comprar button {
+        width: 270px;
+    }
+
+    /*Deixando responsivo o block1, que contem o titulo do jogo, carousel e informações*/
+
+    /*Deixando responsivo o block2, que contem a descrição do jogo*/
+    
+    .block2 {
+        width: 300px;
+        position: relative;
+        top: 375px;
+    }
+
+    /*Deixando responsivo o block2, que contem a descrição do jogo*/
+
+    /*Deixando responsivo a parte que contem o as informações do jogo*/
+    
+    .block3 {
+        width: 300px;
+        margin-top: 375px;
+    }
+
+    .block3_text {
+        margin-left: 29px;
+    }
+
+    .requisitos_minimo {
+        position: relative;
+        right: 6px;
+    }
+
+    .requisitos_m_e_r {
+        margin-left: 40px;
+        width: 156px;
+    }
+
+    .requisitos_m, .requisitos_re {
+        width: 270px;
+    }
+
+
+    .requisitos1, .requisitos2{
+        width: 145px;
+    }
+
+    .requisitos_m, .requisitos_r{
+        width: 250px;
+    }
+
+    .idiomas_audio, .idiomas_texto {
+        width: 254px;
+    }
+    
+    
+    /*Deixando responsivo a parte que contem o as informações do jogo*/
+}
